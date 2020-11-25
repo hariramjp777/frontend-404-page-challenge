@@ -51,7 +51,7 @@ main .content {
 
 main .scarecrow {
   height: 44.743rem;
-  background: url("../assets/images/scarecrow.png") no-repeat 50% 0% / contain;
+  background: url("../assets/images/scarecrow.png") no-repeat 0% 0% / contain;
 }
 
 main .content h2 {
@@ -102,6 +102,7 @@ main .content a {
   }
   main .scarecrow {
     height: 22rem;
+    background-position: 50% 0%;
   }
   main .content h2 {
     font-size: clamp(2.1rem, 10vw, 4.8rem);
