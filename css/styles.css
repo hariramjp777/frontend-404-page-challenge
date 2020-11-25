@@ -2,6 +2,7 @@
   --gray: #333333;
   --lightGray: #4f4f4f;
   --white: #ffffff;
+  --link: #007bff;
   --mt: "Montserrat", sans-serif;
   --sm: "Space Mono", monospace;
   --inc: "Inconsolata", monospace;
@@ -75,6 +76,22 @@ main .content a {
   font: 700 1.4rem var(--sm);
 }
 
+.attribution {
+  text-align: center;
+  margin-bottom: 6rem;
+  color: var(--gray);
+  font: 600 1.4rem var(--mt);
+}
+
+.attribution a {
+  color: var(--gray);
+  text-decoration: none;
+}
+
+.attribution a:hover {
+  text-decoration: underline;
+}
+
 @media (max-width: 950px) {
   main {
     flex-direction: column;
@@ -103,5 +120,13 @@ main .content a {
 @media (max-width: 313px) {
   main .scarecrow {
     height: 74vw;
+  }
+}
+
+@media (max-width: 277px) {
+  .attribution p {
+    display: flex;
+    flex-direction: column;
+    gap: 0.5rem;
   }
 }
