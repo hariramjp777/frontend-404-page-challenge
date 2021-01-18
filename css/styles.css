@@ -78,7 +78,7 @@ main .content a {
 
 .attribution {
   text-align: center;
-  margin-bottom: 6rem;
+  padding-bottom: 6rem;
   color: var(--gray);
   font: 600 1.4rem var(--mt);
 }
